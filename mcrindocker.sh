@@ -1,6 +1,7 @@
 #!/bin/bash
 
 docker info
+docker rm -f mcr-in-docker
 docker run --privileged --name mcr-in-docker -d docker:dind
 docker run -it --rm --link mcr-in-docker:docker docker sh
 docker info
