@@ -1,3 +1,5 @@
+#!/bin/bash
+
 git clone -n https://v-xiztan.visualstudio.com/azurecr-test/_git/iis-docker-vsts
 expect "Username"
 send "v-xiztan\n"
