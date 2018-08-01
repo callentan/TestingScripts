@@ -1,0 +1,158 @@
+{
+    "distribution1": {
+        "repo": "https://github.com/azurecr-test/distribution-australiasoutheast"
+    },
+    "distribution2": {
+        "repo": "https://github.com/azurecr-test/distribution-westcentralus"
+    },
+    "distribution3": {
+        "repo": "https://github.com/azurecr-test/distribution-eastus"
+    },
+    "distribution4": {
+        "repo": "https://github.com/azurecr-test/distribution-ukwest"
+    },
+    "distribution5": {
+        "repo": "https://github.com/azurecr-test/distribution-uksouth"
+    },
+    "distribution6": {
+        "repo": "https://github.com/azurecr-test/distribution-centralus"
+    },
+    "distribution7": {
+        "repo": "https://github.com/azurecr-test/distribution-northeurope"
+    },
+    "distribution8": {
+        "repo": "https://github.com/azurecr-test/distribution-eastasia"
+    },
+    "distribution9": {
+        "repo": "https://github.com/azurecr-test/distribution-northcentralus"
+    },
+    "distribution10": {
+        "repo": "https://github.com/azurecr-test/distribution-southeastasia"
+    },
+    "distribution11": {
+        "repo": "https://github.com/azurecr-test/distribution-southcentralus"
+    },
+    "distribution12": {
+        "repo": "https://github.com/azurecr-test/distribution-westus"
+    },
+    "distribution13": {
+        "repo": "https://github.com/azurecr-test/distribution-westusdf"
+    },
+    "distribution14": {
+        "repo": "https://github.com/azurecr-test/distribution-australiaeast"
+    },
+    "distribution15": {
+        "repo": "https://github.com/azurecr-test/distribution-japanwest"
+    },
+    "distribution16": {
+        "repo": "https://github.com/azurecr-test/distribution-canadaeast"
+    },
+    "distribution17": {
+        "repo": "https://github.com/azurecr-test/distribution-centralindia"
+    },
+    "distribution18": {
+        "repo": "https://github.com/azurecr-test/distribution-japaneast"
+    },
+    "distribution19": {
+        "repo": "https://github.com/azurecr-test/distribution-brazilsouth"
+    },
+    "distribution20": {
+        "repo": "https://github.com/azurecr-test/distribution-canadacentral"
+    },
+    "distribution21": {
+        "repo": "https://github.com/azurecr-test/distribution-southindia"
+    },
+    "distribution22": {
+        "repo": "https://github.com/azurecr-test/distribution-westeurope"
+    },
+    "distribution23": {
+        "repo": "https://github.com/azurecr-test/distribution-eastusdf"
+    },
+    "distribution24": {
+        "repo": "https://github.com/azurecr-test/distribution-eus2euap"
+    },
+    "distribution25": {
+        "repo": "https://github.com/azurecr-test/distribution-eastus2"
+    },
+    "distribution26": {
+        "repo": "https://github.com/azurecr-test/distribution-westus2"
+    },
+    "iis1": {
+        "repo": "https://github.com/azurecr-test/iis-docker-westeurope"
+    },
+    "iis2": {
+        "repo": "https://github.com/azurecr-test/iis-docker-westcentralus"
+    },
+    "iis3": {
+        "repo": "https://github.com/azurecr-test/iis-docker-ukwest"
+    },
+    "iis4": {
+        "repo": "https://github.com/azurecr-test/iis-docker-japanwest"
+    },
+    "iis5": {
+        "repo": "https://github.com/azurecr-test/iis-docker-westus"
+    },
+    "iis6": {
+        "repo": "https://github.com/azurecr-test/iis-docker-canadacentral"
+    },
+    "iis7": {
+        "repo": "https://github.com/azurecr-test/iis-docker-westus2"
+    },
+    "iis8": {
+        "repo": "https://github.com/azurecr-test/iis-docker-southcentralus"
+    },
+    "iis9": {
+        "repo": "https://github.com/azurecr-test/iis-docker-southindia"
+    },
+    "iis10": {
+        "repo": "https://github.com/azurecr-test/iis-docker-northcentralus"
+    },
+    "iis11": {
+        "repo": "https://github.com/azurecr-test/iis-docker-eastusdf"
+    },
+    "iis12": {
+        "repo": "https://github.com/azurecr-test/iis-docker-brazilsouth"
+    },
+    "iis13": {
+        "repo": "https://github.com/azurecr-test/iis-docker-australiaeast"
+    },
+    "iis14": {
+        "repo": "https://github.com/azurecr-test/iis-docker-eastus"
+    },
+    "iis15": {
+        "repo": "https://github.com/azurecr-test/iis-docker-westusdf"
+    },
+    "iis16": {
+        "repo": "https://github.com/azurecr-test/iis-docker-eastasia"
+    },
+    "iis17": {
+        "repo": "https://github.com/azurecr-test/iis-docker-australiasoutheast"
+    },
+    "iis18": {
+        "repo": "https://github.com/azurecr-test/iis-docker-centralus"
+    },
+    "iis19": {
+        "repo": "https://github.com/azurecr-test/iis-docker-southeastasia"
+    },
+    "iis20": {
+        "repo": "https://github.com/azurecr-test/iis-docker-canadaeast"
+    },
+    "iis21": {
+        "repo": "https://github.com/azurecr-test/iis-docker-japaneast"
+    },
+    "iis22": {
+        "repo": "https://github.com/azurecr-test/iis-docker-eastus2"
+    },
+    "iis23": {
+        "repo": "https://github.com/azurecr-test/iis-docker-centralindia"
+    },
+    "iis24": {
+        "repo": "https://github.com/azurecr-test/iis-docker-uksouth"
+    },
+    "iis25": {
+        "repo": "https://github.com/azurecr-test/iis-docker-northeurope"
+    },
+    "iis26": {
+        "repo": "https://github.com/azurecr-test/iis-docker-eus2euap"
+    }
+}

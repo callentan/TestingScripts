@@ -1,0 +1,562 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20180801021743
+Username: FAREAST\v-xiztan
+RunAs User: FAREAST\v-xiztan
+Machine: ASP-V-XIZTAN003 (Microsoft Windows NT 10.0.14393.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 8068
+PSVersion: 5.1.14393.2368
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.14393.2368
+BuildVersion: 10.0.14393.2368
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is .\Log\SyncRepos180801.txt
+++++++++++++++++ https://github.com/azurecr-test/distribution-australiasoutheast +++++++++++++++++
+Cloning into 'distribution-australiasoutheast'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.60 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-westcentralus +++++++++++++++++
+Cloning into 'distribution-westcentralus'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.38 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-eastus +++++++++++++++++
+Cloning into 'distribution-eastus'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.44 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-ukwest +++++++++++++++++
+Cloning into 'distribution-ukwest'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (8159/8159), done.
+remote: Total 18892 (delta 10103), reused 18892 (delta 10103), pack-reused 0
+Receiving objects: 100% (18892/18892), 12.35 MiB | 11.67 MiB/s, done.
+Resolving deltas: 100% (10103/10103), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-uksouth +++++++++++++++++
+Cloning into 'distribution-uksouth'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 10.14 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-centralus +++++++++++++++++
+Cloning into 'distribution-centralus'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (8159/8159), done.
+remote: Total 18892 (delta 10103), reused 18892 (delta 10103), pack-reused 0
+Receiving objects: 100% (18892/18892), 12.35 MiB | 11.67 MiB/s, done.
+Resolving deltas: 100% (10103/10103), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-northeurope +++++++++++++++++
+Cloning into 'distribution-northeurope'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.92 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-eastasia +++++++++++++++++
+Cloning into 'distribution-eastasia'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.88 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-northcentralus +++++++++++++++++
+Cloning into 'distribution-northcentralus'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.86 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-southeastasia +++++++++++++++++
+Cloning into 'distribution-southeastasia'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (8159/8159), done.
+remote: Total 18892 (delta 10103), reused 18892 (delta 10103), pack-reused 0
+Receiving objects: 100% (18892/18892), 12.35 MiB | 10.91 MiB/s, done.
+Resolving deltas: 100% (10103/10103), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-southcentralus +++++++++++++++++
+fatal: destination path 'distribution-southcentralus' already exists and is not an empty directory.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-westus +++++++++++++++++
+Cloning into 'distribution-westus'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.83 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-westusdf +++++++++++++++++
+Cloning into 'distribution-westusdf'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (8159/8159), done.
+remote: Total 18892 (delta 10103), reused 18892 (delta 10103), pack-reused 0
+Receiving objects: 100% (18892/18892), 12.35 MiB | 11.24 MiB/s, done.
+Resolving deltas: 100% (10103/10103), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-australiaeast +++++++++++++++++
+Cloning into 'distribution-australiaeast'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (8159/8159), done.
+remote: Total 18892 (delta 10103), reused 18892 (delta 10103), pack-reused 0
+Receiving objects: 100% (18892/18892), 12.35 MiB | 11.42 MiB/s, done.
+Resolving deltas: 100% (10103/10103), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-japanwest +++++++++++++++++
+Cloning into 'distribution-japanwest'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 10.44 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-canadaeast +++++++++++++++++
+Cloning into 'distribution-canadaeast'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 10.31 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-centralindia +++++++++++++++++
+Cloning into 'distribution-centralindia'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (8159/8159), done.
+remote: Total 18892 (delta 10103), reused 18892 (delta 10103), pack-reused 0
+Receiving objects: 100% (18892/18892), 12.35 MiB | 11.13 MiB/s, done.
+Resolving deltas: 100% (10103/10103), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-japaneast +++++++++++++++++
+Cloning into 'distribution-japaneast'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (8159/8159), done.
+remote: Total 18892 (delta 10103), reused 18892 (delta 10103), pack-reused 0
+Receiving objects: 100% (18892/18892), 12.35 MiB | 8.44 MiB/s, done.
+Resolving deltas: 100% (10103/10103), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-brazilsouth +++++++++++++++++
+Cloning into 'distribution-brazilsouth'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (8159/8159), done.
+remote: Total 18892 (delta 10103), reused 18892 (delta 10103), pack-reused 0
+Receiving objects: 100% (18892/18892), 12.35 MiB | 11.00 MiB/s, done.
+Resolving deltas: 100% (10103/10103), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-canadacentral +++++++++++++++++
+Cloning into 'distribution-canadacentral'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (8159/8159), done.
+remote: Total 18892 (delta 10103), reused 18892 (delta 10103), pack-reused 0
+Receiving objects: 100% (18892/18892), 12.35 MiB | 10.83 MiB/s, done.
+Resolving deltas: 100% (10103/10103), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-southindia +++++++++++++++++
+Cloning into 'distribution-southindia'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.75 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-westeurope +++++++++++++++++
+Cloning into 'distribution-westeurope'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.78 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-eastusdf +++++++++++++++++
+Cloning into 'distribution-eastusdf'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.91 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-eus2euap +++++++++++++++++
+Cloning into 'distribution-eus2euap'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.29 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-eastus2 +++++++++++++++++
+Cloning into 'distribution-eastus2'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 10.08 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/distribution-westus2 +++++++++++++++++
+Cloning into 'distribution-westus2'...
+remote: Counting objects: 18892, done.
+remote: Compressing objects: 100% (6706/6706), done.
+remote: Total 18892 (delta 11556), reused 18892 (delta 11556), pack-reused 0
+Receiving objects: 100% (18892/18892), 8.05 MiB | 9.41 MiB/s, done.
+Resolving deltas: 100% (11556/11556), done.
+Checking out files: 100% (1189/1189), done.
+From https://github.com/docker/distribution
+ * branch              HEAD       -> FETCH_HEAD
+Already up to date.
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-westeurope +++++++++++++++++
+Cloning into 'iis-docker-westeurope'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.09 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-westcentralus +++++++++++++++++
+Cloning into 'iis-docker-westcentralus'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 3.68 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-ukwest +++++++++++++++++
+Cloning into 'iis-docker-ukwest'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.36 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-japanwest +++++++++++++++++
+Cloning into 'iis-docker-japanwest'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.66 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-westus +++++++++++++++++
+Cloning into 'iis-docker-westus'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.09 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-canadacentral +++++++++++++++++
+Cloning into 'iis-docker-canadacentral'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+Receiving objects:  93% (238/255)   d 255 (delta 112), pack-reused 0 eceiving objects:  92% (235/255)
+Receiving objects: 100% (255/255), 191.48 KiB | 6.84 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-westus2 +++++++++++++++++
+Cloning into 'iis-docker-westus2'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.09 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-southcentralus +++++++++++++++++
+Cloning into 'iis-docker-southcentralus'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 5.98 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-southindia +++++++++++++++++
+Cloning into 'iis-docker-southindia'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.09 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-northcentralus +++++++++++++++++
+Cloning into 'iis-docker-northcentralus'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 4.67 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-eastusdf +++++++++++++++++
+Cloning into 'iis-docker-eastusdf'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.R
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.09 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-brazilsouth +++++++++++++++++
+Cloning into 'iis-docker-brazilsouth'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (122/122), done.
+remote: Total 255 (delta 103), reused 255 (delta 103), pack-reused 0
+Receiving objects: 100% (255/255), 198.04 KiB | 1.38 MiB/s, done.
+Resolving deltas: 100% (103/103), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-australiaeast +++++++++++++++++
+Cloning into 'iis-docker-australiaeast'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.09 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-eastus +++++++++++++++++
+Cloning into 'iis-docker-eastus'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.09 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-westusdf +++++++++++++++++
+Cloning into 'iis-docker-westusdf'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (122/122), done.
+remote: Total 255 (delta 103), reused 255 (delta 103), pack-reused 0
+Receiving objects: 100% (255/255), 198.04 KiB | 6.60 MiB/s, done.
+Resolving deltas: 100% (103/103), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-eastasia +++++++++++++++++
+Cloning into 'iis-docker-eastasia'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 6.84 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-australiasoutheast +++++++++++++++++
+Cloning into 'iis-docker-australiasoutheast'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (122/122), done.Receiving objects:  30% (77/255)
+remote: Total 255 (delta 103), reused 255 (delta 103), pack-reused 0
+Receiving objects: 100% (255/255), 198.04 KiB | 6.60 MiB/s, done.
+Resolving deltas: 100% (103/103), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-centralus +++++++++++++++++
+Cloning into 'iis-docker-centralus'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.98 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-southeastasia +++++++++++++++++
+Cloning into 'iis-docker-southeastasia'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.09 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-canadaeast +++++++++++++++++
+Cloning into 'iis-docker-canadaeast'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.Receiving objects:   9% (23/255)
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.66 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-japaneast +++++++++++++++++
+Cloning into 'iis-docker-japaneast'...
+remote: Counting objects: 255, done.
+Receiving objects:  29% (74/255)   113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.66 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-eastus2 +++++++++++++++++
+Cloning into 'iis-docker-eastus2'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.66 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-centralindia +++++++++++++++++
+Cloning into 'iis-docker-centralindia'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.66 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-uksouth +++++++++++++++++
+Cloning into 'iis-docker-uksouth'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (122/122), done.
+remote: Total 255 (delta 103), reused 255 (delta 103), pack-reused 0
+Receiving objects: 100% (255/255), 198.04 KiB | 6.83 MiB/s, done.
+Resolving deltas: 100% (103/103), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-northeurope +++++++++++++++++
+Cloning into 'iis-docker-northeurope'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done.
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 7.66 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+++++++++++++++++ https://github.com/azurecr-test/iis-docker-eus2euap +++++++++++++++++
+Cloning into 'iis-docker-eus2euap'...
+remote: Counting objects: 255, done.
+remote: Compressing objects: 100% (113/113), done. eceiving objects:  17% (44/255)
+remote: Total 255 (delta 112), reused 255 (delta 112), pack-reused 0
+Receiving objects: 100% (255/255), 191.48 KiB | 6.84 MiB/s, done.
+Resolving deltas: 100% (112/112), done.
+fatal: Couldn't find remote ref iis
+Everything up-to-date
+**********************
+Windows PowerShell transcript end
+End time: 20180801022120
+**********************
