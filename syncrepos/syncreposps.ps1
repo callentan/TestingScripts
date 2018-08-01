@@ -24,7 +24,7 @@ $targetrepos = Get-Content -Path C:\ACR\callenTest\AzureTesting\syncrepos\distri
 execsync("https://github.com/docker/distribution.git")
 
 $targetrepos = Get-Content -Path C:\ACR\callenTest\AzureTesting\syncrepos\iisrepos.log
-execsync("https://github.com/Microsoft/iis-docker.git", "iis")
+execsync("https://github.com/Microsoft/iis-docker.git")
 
 
 Stop-Transcript
