@@ -1,6 +1,4 @@
 #!/bin/bash
-chmod 777 ./etc/hosts
-echo "0.0.0.0 mcr.microsoft.com" >> /etc/hosts
 
 docker info
 docker rm -f mcr-in-docker
